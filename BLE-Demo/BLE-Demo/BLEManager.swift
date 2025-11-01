@@ -56,7 +56,17 @@ class BLEManager:NSObject, ObservableObject,CBCentralManagerDelegate, CBPeripher
            isScanning = false
        }
     }
-
+    // MARK: - Connect / Disconnect
+      func toggleConnection(for device: Device) {
+          if device.isConnected {
+              print("🔌 Disconnecting from \(device.name)")
+              centralManager.cancelPeripheralConnection(device.peripheral)
+          } else {
+              print("⚡ Connecting to \(device.name)")
+              device.peripheral.delegate = self
+              centralManager.connect(device.peripheral, options: nil)
+          }
+      }
 
 // MARK: - Discovery
    func centralManager(_ central: CBCentralManager,

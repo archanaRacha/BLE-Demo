@@ -20,7 +20,11 @@ struct ContentView: View {
                         .foregroundStyle(.secondary)
                         .font(.subheadline)
                 }
-             
+                .contentShape(Rectangle()) // Makes whole row tappable
+               .onTapGesture {
+                   viewModel.toggleConnection(for: device)
+               }
+               .background(device.isConnected ? Color.green.opacity(0.1) : Color.clear)
 
                 
             }

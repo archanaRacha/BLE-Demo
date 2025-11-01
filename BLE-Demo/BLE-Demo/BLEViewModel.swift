@@ -22,6 +22,8 @@ class BLEViewModel :ObservableObject {
         manager.startScanning()
     }
    
-   
+    func toggleConnection(for device: Device) {
+        manager.toggleConnection(for: device)
+    }
     
 }
