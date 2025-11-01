@@ -1,2 +1,2 @@
 # BLE-Demo
-Demonstrates scanning and connecting to BLE peripherals.
+A lightweight iOS app demonstrating Bluetooth Low Energy (BLE) scanning and connection using CoreBluetooth..
