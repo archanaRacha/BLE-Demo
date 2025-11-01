@@ -6,41 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		67C60FD22EB67442006C36DF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C60FD12EB67442006C36DF /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		67C60F102EB6707B006C36DF /* PBXContainerItemProxy */ = {
+		67C60F432EB67161006C36DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67C60EFA2EB67079006C36DF /* Project object */;
+			containerPortal = 67C60F2D2EB6715E006C36DF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67C60F012EB67079006C36DF;
+			remoteGlobalIDString = 67C60F342EB6715F006C36DF;
 			remoteInfo = "BLE-Demo";
 		};
-		67C60F1A2EB6707B006C36DF /* PBXContainerItemProxy */ = {
+		67C60F4D2EB67161006C36DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 67C60EFA2EB67079006C36DF /* Project object */;
+			containerPortal = 67C60F2D2EB6715E006C36DF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67C60F012EB67079006C36DF;
+			remoteGlobalIDString = 67C60F342EB6715F006C36DF;
 			remoteInfo = "BLE-Demo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		67C60F022EB67079006C36DF /* BLE-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C60F0F2EB6707B006C36DF /* BLE-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C60F192EB6707B006C36DF /* BLE-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C60F352EB6715F006C36DF /* BLE-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BLE-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C60F422EB67161006C36DF /* BLE-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C60F4C2EB67161006C36DF /* BLE-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BLE-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C60FD12EB67442006C36DF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		67C60F042EB67079006C36DF /* BLE-Demo */ = {
+		67C60F372EB6715F006C36DF /* BLE-Demo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BLE-Demo";
 			sourceTree = "<group>";
 		};
-		67C60F122EB6707B006C36DF /* BLE-DemoTests */ = {
+		67C60F452EB67161006C36DF /* BLE-DemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BLE-DemoTests";
 			sourceTree = "<group>";
 		};
-		67C60F1C2EB6707B006C36DF /* BLE-DemoUITests */ = {
+		67C60F4F2EB67161006C36DF /* BLE-DemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "BLE-DemoUITests";
 			sourceTree = "<group>";
@@ -48,21 +53,22 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		67C60EFF2EB67079006C36DF /* Frameworks */ = {
+		67C60F322EB6715F006C36DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C60FD22EB67442006C36DF /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C60F3F2EB67161006C36DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C60F0C2EB6707B006C36DF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		67C60F162EB6707B006C36DF /* Frameworks */ = {
+		67C60F492EB67161006C36DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,157 +78,166 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67C60EF92EB67079006C36DF = {
+		67C60F2C2EB6715E006C36DF = {
 			isa = PBXGroup;
 			children = (
-				67C60F042EB67079006C36DF /* BLE-Demo */,
-				67C60F122EB6707B006C36DF /* BLE-DemoTests */,
-				67C60F1C2EB6707B006C36DF /* BLE-DemoUITests */,
-				67C60F032EB67079006C36DF /* Products */,
+				67C60F372EB6715F006C36DF /* BLE-Demo */,
+				67C60F452EB67161006C36DF /* BLE-DemoTests */,
+				67C60F4F2EB67161006C36DF /* BLE-DemoUITests */,
+				67C60FD02EB67442006C36DF /* Frameworks */,
+				67C60F362EB6715F006C36DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		67C60F032EB67079006C36DF /* Products */ = {
+		67C60F362EB6715F006C36DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67C60F022EB67079006C36DF /* BLE-Demo.app */,
-				67C60F0F2EB6707B006C36DF /* BLE-DemoTests.xctest */,
-				67C60F192EB6707B006C36DF /* BLE-DemoUITests.xctest */,
+				67C60F352EB6715F006C36DF /* BLE-Demo.app */,
+				67C60F422EB67161006C36DF /* BLE-DemoTests.xctest */,
+				67C60F4C2EB67161006C36DF /* BLE-DemoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		67C60FD02EB67442006C36DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C60FD12EB67442006C36DF /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67C60F012EB67079006C36DF /* BLE-Demo */ = {
+		67C60F342EB6715F006C36DF /* BLE-Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67C60F232EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-Demo" */;
+			buildConfigurationList = 67C60F562EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-Demo" */;
 			buildPhases = (
-				67C60EFE2EB67079006C36DF /* Sources */,
-				67C60EFF2EB67079006C36DF /* Frameworks */,
-				67C60F002EB67079006C36DF /* Resources */,
+				67C60F312EB6715F006C36DF /* Sources */,
+				67C60F322EB6715F006C36DF /* Frameworks */,
+				67C60F332EB6715F006C36DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				67C60F042EB67079006C36DF /* BLE-Demo */,
+				67C60F372EB6715F006C36DF /* BLE-Demo */,
 			);
 			name = "BLE-Demo";
 			packageProductDependencies = (
 			);
 			productName = "BLE-Demo";
-			productReference = 67C60F022EB67079006C36DF /* BLE-Demo.app */;
+			productReference = 67C60F352EB6715F006C36DF /* BLE-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67C60F0E2EB6707B006C36DF /* BLE-DemoTests */ = {
+		67C60F412EB67161006C36DF /* BLE-DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67C60F262EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoTests" */;
+			buildConfigurationList = 67C60F592EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoTests" */;
 			buildPhases = (
-				67C60F0B2EB6707B006C36DF /* Sources */,
-				67C60F0C2EB6707B006C36DF /* Frameworks */,
-				67C60F0D2EB6707B006C36DF /* Resources */,
+				67C60F3E2EB67161006C36DF /* Sources */,
+				67C60F3F2EB67161006C36DF /* Frameworks */,
+				67C60F402EB67161006C36DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67C60F112EB6707B006C36DF /* PBXTargetDependency */,
+				67C60F442EB67161006C36DF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				67C60F122EB6707B006C36DF /* BLE-DemoTests */,
+				67C60F452EB67161006C36DF /* BLE-DemoTests */,
 			);
 			name = "BLE-DemoTests";
 			packageProductDependencies = (
 			);
 			productName = "BLE-DemoTests";
-			productReference = 67C60F0F2EB6707B006C36DF /* BLE-DemoTests.xctest */;
+			productReference = 67C60F422EB67161006C36DF /* BLE-DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		67C60F182EB6707B006C36DF /* BLE-DemoUITests */ = {
+		67C60F4B2EB67161006C36DF /* BLE-DemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67C60F292EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoUITests" */;
+			buildConfigurationList = 67C60F5C2EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoUITests" */;
 			buildPhases = (
-				67C60F152EB6707B006C36DF /* Sources */,
-				67C60F162EB6707B006C36DF /* Frameworks */,
-				67C60F172EB6707B006C36DF /* Resources */,
+				67C60F482EB67161006C36DF /* Sources */,
+				67C60F492EB67161006C36DF /* Frameworks */,
+				67C60F4A2EB67161006C36DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				67C60F1B2EB6707B006C36DF /* PBXTargetDependency */,
+				67C60F4E2EB67161006C36DF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				67C60F1C2EB6707B006C36DF /* BLE-DemoUITests */,
+				67C60F4F2EB67161006C36DF /* BLE-DemoUITests */,
 			);
 			name = "BLE-DemoUITests";
 			packageProductDependencies = (
 			);
 			productName = "BLE-DemoUITests";
-			productReference = 67C60F192EB6707B006C36DF /* BLE-DemoUITests.xctest */;
+			productReference = 67C60F4C2EB67161006C36DF /* BLE-DemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		67C60EFA2EB67079006C36DF /* Project object */ = {
+		67C60F2D2EB6715E006C36DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					67C60F012EB67079006C36DF = {
+					67C60F342EB6715F006C36DF = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					67C60F0E2EB6707B006C36DF = {
+					67C60F412EB67161006C36DF = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 67C60F012EB67079006C36DF;
+						TestTargetID = 67C60F342EB6715F006C36DF;
 					};
-					67C60F182EB6707B006C36DF = {
+					67C60F4B2EB67161006C36DF = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 67C60F012EB67079006C36DF;
+						TestTargetID = 67C60F342EB6715F006C36DF;
 					};
 				};
 			};
-			buildConfigurationList = 67C60EFD2EB67079006C36DF /* Build configuration list for PBXProject "BLE-Demo" */;
+			buildConfigurationList = 67C60F302EB6715E006C36DF /* Build configuration list for PBXProject "BLE-Demo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 67C60EF92EB67079006C36DF;
+			mainGroup = 67C60F2C2EB6715E006C36DF;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 67C60F032EB67079006C36DF /* Products */;
+			productRefGroup = 67C60F362EB6715F006C36DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67C60F012EB67079006C36DF /* BLE-Demo */,
-				67C60F0E2EB6707B006C36DF /* BLE-DemoTests */,
-				67C60F182EB6707B006C36DF /* BLE-DemoUITests */,
+				67C60F342EB6715F006C36DF /* BLE-Demo */,
+				67C60F412EB67161006C36DF /* BLE-DemoTests */,
+				67C60F4B2EB67161006C36DF /* BLE-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67C60F002EB67079006C36DF /* Resources */ = {
+		67C60F332EB6715F006C36DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C60F0D2EB6707B006C36DF /* Resources */ = {
+		67C60F402EB67161006C36DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C60F172EB6707B006C36DF /* Resources */ = {
+		67C60F4A2EB67161006C36DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +247,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		67C60EFE2EB67079006C36DF /* Sources */ = {
+		67C60F312EB6715F006C36DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C60F0B2EB6707B006C36DF /* Sources */ = {
+		67C60F3E2EB67161006C36DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67C60F152EB6707B006C36DF /* Sources */ = {
+		67C60F482EB67161006C36DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +271,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		67C60F112EB6707B006C36DF /* PBXTargetDependency */ = {
+		67C60F442EB67161006C36DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67C60F012EB67079006C36DF /* BLE-Demo */;
-			targetProxy = 67C60F102EB6707B006C36DF /* PBXContainerItemProxy */;
+			target = 67C60F342EB6715F006C36DF /* BLE-Demo */;
+			targetProxy = 67C60F432EB67161006C36DF /* PBXContainerItemProxy */;
 		};
-		67C60F1B2EB6707B006C36DF /* PBXTargetDependency */ = {
+		67C60F4E2EB67161006C36DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67C60F012EB67079006C36DF /* BLE-Demo */;
-			targetProxy = 67C60F1A2EB6707B006C36DF /* PBXContainerItemProxy */;
+			target = 67C60F342EB6715F006C36DF /* BLE-Demo */;
+			targetProxy = 67C60F4D2EB67161006C36DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		67C60F212EB6707B006C36DF /* Debug */ = {
+		67C60F542EB67161006C36DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +348,7 @@
 			};
 			name = Debug;
 		};
-		67C60F222EB6707B006C36DF /* Release */ = {
+		67C60F552EB67161006C36DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +405,7 @@
 			};
 			name = Release;
 		};
-		67C60F242EB6707B006C36DF /* Debug */ = {
+		67C60F572EB67161006C36DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -400,6 +415,8 @@
 				DEVELOPMENT_TEAM = 79X737MFXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app requires Bluetooth access to scan for and connect to BLE devices.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -418,7 +435,7 @@
 			};
 			name = Debug;
 		};
-		67C60F252EB6707B006C36DF /* Release */ = {
+		67C60F582EB67161006C36DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -428,6 +445,8 @@
 				DEVELOPMENT_TEAM = 79X737MFXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to discover and connect to nearby devices.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app requires Bluetooth access to scan for and connect to BLE devices.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,7 +465,7 @@
 			};
 			name = Release;
 		};
-		67C60F272EB6707B006C36DF /* Debug */ = {
+		67C60F5A2EB67161006C36DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,7 +484,7 @@
 			};
 			name = Debug;
 		};
-		67C60F282EB6707B006C36DF /* Release */ = {
+		67C60F5B2EB67161006C36DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +503,7 @@
 			};
 			name = Release;
 		};
-		67C60F2A2EB6707B006C36DF /* Debug */ = {
+		67C60F5D2EB67161006C36DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -501,7 +520,7 @@
 			};
 			name = Debug;
 		};
-		67C60F2B2EB6707B006C36DF /* Release */ = {
+		67C60F5E2EB67161006C36DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,43 +540,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67C60EFD2EB67079006C36DF /* Build configuration list for PBXProject "BLE-Demo" */ = {
+		67C60F302EB6715E006C36DF /* Build configuration list for PBXProject "BLE-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C60F212EB6707B006C36DF /* Debug */,
-				67C60F222EB6707B006C36DF /* Release */,
+				67C60F542EB67161006C36DF /* Debug */,
+				67C60F552EB67161006C36DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67C60F232EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-Demo" */ = {
+		67C60F562EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C60F242EB6707B006C36DF /* Debug */,
-				67C60F252EB6707B006C36DF /* Release */,
+				67C60F572EB67161006C36DF /* Debug */,
+				67C60F582EB67161006C36DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67C60F262EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoTests" */ = {
+		67C60F592EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C60F272EB6707B006C36DF /* Debug */,
-				67C60F282EB6707B006C36DF /* Release */,
+				67C60F5A2EB67161006C36DF /* Debug */,
+				67C60F5B2EB67161006C36DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67C60F292EB6707B006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoUITests" */ = {
+		67C60F5C2EB67161006C36DF /* Build configuration list for PBXNativeTarget "BLE-DemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67C60F2A2EB6707B006C36DF /* Debug */,
-				67C60F2B2EB6707B006C36DF /* Release */,
+				67C60F5D2EB67161006C36DF /* Debug */,
+				67C60F5E2EB67161006C36DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 67C60EFA2EB67079006C36DF /* Project object */;
+	rootObject = 67C60F2D2EB6715E006C36DF /* Project object */;
 }
