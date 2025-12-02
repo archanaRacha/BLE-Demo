@@ -22,7 +22,7 @@ extension CBUUID {
 
 class BLEManager:NSObject, ObservableObject,CBCentralManagerDelegate, CBPeripheralDelegate {
     
-    private let serviceUUID = CBUUID.init(string: "replace product service uuid")//if we are searching for a particular device type and we know that device service UUID
+    private let serviceUUID = CBUUID.init(string: "REPLACE WITH YOUR SERVICE UUID")//if we are searching for a particular device type and we know that device service UUID
     @Published var devices:[Device] = []
     private var centralManager:CBCentralManager!
     private var isScanning: Bool = false
